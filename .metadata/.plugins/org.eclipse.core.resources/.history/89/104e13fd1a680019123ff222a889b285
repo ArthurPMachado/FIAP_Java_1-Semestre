@@ -1,0 +1,17 @@
+package com.arthurmachado.fiap.editortexto;
+
+import com.arthurmachado.fiap.heranca.Cera;
+import com.arthurmachado.fiap.heranca.JatoDeTinta;
+import com.arthurmachado.fiap.heranca.Laser;
+import com.arthurmachado.fiap.heranca.Matricial;
+
+public class Word {
+	
+	public static void main(String[] args) {
+		
+		Impressora[] impressoras = new Impressora[4];
+		impressoras[0] = new JatoDeTinta("HP", 110);
+		impressoras[1] = new Matricial("Brother", 220);
+		impressoras
+	}
+}

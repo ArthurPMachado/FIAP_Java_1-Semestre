@@ -1,0 +1,32 @@
+package com.arthurmachado.fiap.heranca;
+
+public class Impressora {
+
+	private String marca;
+	private String tipo;
+	private int tensao;
+	
+	public Impressora(String marca, String tipo, int tensao) {
+		
+	}
+	
+	public void imprimir() {
+		System.out.println("Imprimindo...");
+	}
+	
+	public void setMarca() {
+		this.marca = marca;
+	}
+	
+	public String getMarca() {
+		return marca;
+	}
+	
+	public void setTipo() {
+		this.tipo = tipo;
+	}
+	
+	public String getTipo() {
+		return tipo;
+	}
+}

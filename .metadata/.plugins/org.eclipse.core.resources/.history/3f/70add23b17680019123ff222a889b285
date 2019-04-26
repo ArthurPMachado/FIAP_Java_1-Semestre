@@ -1,0 +1,8 @@
+package com.arthurmachado.fiap.editortexto;
+
+public class Word {
+	
+	public static void main(String[] args) {
+		
+	}
+}

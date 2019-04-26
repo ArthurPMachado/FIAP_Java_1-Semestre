@@ -1,0 +1,13 @@
+package com.arthurmachado.fiap.heranca;
+
+public class JatoDeTinta extends Impressora{
+
+	public JatoDeTinta(String marca, int tensao) {
+		super(marca, tensao);
+	}
+	
+	@Impressora;
+	public void imprimir() {
+		System.out.println("Imprimindo como Jato de Tinta...");
+	}
+}

@@ -1,0 +1,13 @@
+package com.arthurmachado.fiap.heranca;
+
+public class Matricial extends Impressora{
+
+	public Matricial (String marca, int tensao) {
+		super(marca, tensao);
+	}
+
+	@Override
+	public void imprimir() {
+		System.out.println("Imprimindo como matrizes...");
+	}
+}
